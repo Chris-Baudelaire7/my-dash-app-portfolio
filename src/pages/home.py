@@ -43,7 +43,7 @@ layout = html.Div(className="px-0 px-md-3 overview", children=[
             html.H5("𝐃𝐚𝐬𝐡 𝐏𝐥𝐨𝐭𝐥𝐲 𝐖𝐞𝐛 𝐀𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧", className="mb-2"),
             html.Hr(className="pt-1 bg-white mb-4"),
             
-            html.Div(className="g-0 row", children=[
+            html.Div(className="row", children=[
                 html.Div(className="col-md-6", children=[
                     card_project(
                         "https://natural-disasters-data-analysis.onrender.com", 
